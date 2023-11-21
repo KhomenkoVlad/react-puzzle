@@ -1,0 +1,42 @@
+.wrap {
+  position: relative;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.inputWrap {
+  padding-bottom: 20px;
+}
+
+.input {
+  width: calc(100% - 120px);
+}
+
+.closing {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.picture {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.picture:hover {
+  background-color: #eee;
+}
+
+.pictureImage {
+  margin-right: 10px;
+  height: 80px;
+}
+
+@media (max-width: 800px) {
+  .block {
+    width: 100%;
+  }
+}

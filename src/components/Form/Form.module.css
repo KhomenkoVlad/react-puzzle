@@ -1,0 +1,25 @@
+.form {
+  font-size: 1rem;
+  margin: auto;
+  max-width: 20em;
+  width: 100%;
+  margin-block: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.form > * {
+  display: block;
+}
+
+.selects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input[name="file"] {
+  width: 100%;
+}
